@@ -1,6 +1,24 @@
 public class Main {
     public static void main(String[] args) {
+        singleDigit(args);
+        displayUnit(args);
 
+    }
+    public static void displayUnit(String[] args) {
+        if (args[0].equals("1")) {
+            System.out.println("Unit");
+        } else if (args[0].equals("10")) {
+            System.out.println("Ten");
+        } else if (args[0].equals("100")) {
+            System.out.println("Hundred");
+        } else if (args[0].equals("1000")) {
+            System.out.println("Thousand");
+        } else {
+            System.out.println("Please enter number between 1, 10 , 100, 1000 only");
+        }
+    }
+
+    public static void singleDigit(String[] args) {
         if (args[0].equals("0")) {
             System.out.println("Zero");
         } else if (args[0].equals("1")) {
