@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        singleDigit(args);
-        displayUnit(args);
+        WhileLoop whileObj = new WhileLoop();
+        whileObj.sumOfNaturalNumbers();
+
+//        singleDigit(args);
+//        displayUnit(args);
 
     }
     public static void displayUnit(String[] args) {
