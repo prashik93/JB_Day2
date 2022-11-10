@@ -3,6 +3,7 @@ public class Main {
 
         SwitchStatements switchObj = new SwitchStatements();
         switchObj.vowelOrConsonant();
+        switchObj.monthName();
 
         ForLoop forObj = new ForLoop();
         forObj.sumOfNaturalNumbers();
