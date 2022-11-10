@@ -4,6 +4,7 @@ public class Main {
         ForLoop forObj = new ForLoop();
         forObj.sumOfNaturalNumbers();
         forObj.reverseNumber();
+        forObj.palindrome();
 
         WhileLoop whileObj = new WhileLoop();
         whileObj.sumOfNaturalNumbers();

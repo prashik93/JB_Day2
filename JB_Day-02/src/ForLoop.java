@@ -7,6 +7,22 @@ public class ForLoop {
         scnr = new Scanner(System.in);
     }
 
+    public void palindrome() {
+        System.out.println("Enter a number : ");
+        num = scnr.nextInt();
+        int rem = 0;
+        int rev = 0;
+        for (int i = num; i > 0; i = i / 10) {
+            rem = i % 10;
+            rev = (rev * 10) + rem;
+        }
+        if(num == rev) {
+            System.out.println("Entered number : " + num + " is = " + rev + " i.e a palindrome number");
+        } else {
+            System.out.println("Entered number : " + num + " is not = " + rev + " i.e not a palindrome number");
+        }
+    }
+
     public void reverseNumber() {
         System.out.println("Enter a number : ");
         num = scnr.nextInt();
