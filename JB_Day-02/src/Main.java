@@ -3,13 +3,14 @@ public class Main {
 
         ForLoop forObj = new ForLoop();
         forObj.sumOfNaturalNumbers();
+        forObj.reverseNumber();
 
-//        WhileLoop whileObj = new WhileLoop();
-//        whileObj.sumOfNaturalNumbers();
-//        whileObj.reverseNumber();
-//
-//        singleDigit(args);
-//        displayUnit(args);
+        WhileLoop whileObj = new WhileLoop();
+        whileObj.sumOfNaturalNumbers();
+        whileObj.reverseNumber();
+
+        singleDigit(args);
+        displayUnit(args);
 
     }
     public static void displayUnit(String[] args) {

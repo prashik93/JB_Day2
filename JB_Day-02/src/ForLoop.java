@@ -7,6 +7,19 @@ public class ForLoop {
         scnr = new Scanner(System.in);
     }
 
+    public void reverseNumber() {
+        System.out.println("Enter a number : ");
+        num = scnr.nextInt();
+        int temp = num;
+        int rem = 0;
+        int rev = 0;
+        for (int i = num; i > 0; i = i /10) {
+            rem = i % 10;
+            rev = (rev * 10) + rem;
+        }
+        System.out.println("Reverse of a number " + temp + " is " + rev);
+    }
+
     public void sumOfNaturalNumbers() {
         System.out.println("Enter a number : ");
         num = scnr.nextInt();
