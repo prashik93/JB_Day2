@@ -1,9 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        WhileLoop whileObj = new WhileLoop();
-        whileObj.sumOfNaturalNumbers();
-        whileObj.reverseNumber();
 
+        ForLoop forObj = new ForLoop();
+        forObj.sumOfNaturalNumbers();
+
+//        WhileLoop whileObj = new WhileLoop();
+//        whileObj.sumOfNaturalNumbers();
+//        whileObj.reverseNumber();
+//
 //        singleDigit(args);
 //        displayUnit(args);
 
