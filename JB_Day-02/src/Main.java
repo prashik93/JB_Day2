@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
+        SwitchStatements switchObj = new SwitchStatements();
+        switchObj.vowelOrConsonant();
+
         ForLoop forObj = new ForLoop();
         forObj.sumOfNaturalNumbers();
         forObj.reverseNumber();
